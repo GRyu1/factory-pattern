@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "create",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BoxFactory.sol": "BoxFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Box.sol": {
+			"keccak256": "0x65294810fa26f93e970396cce99a4514e1f33b8ba82d1e3c7d8f51f6633cc8df",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://7376d27ed7271d66cf89243353c4a7533c5b67b2063096bc84b1aa8ae7817365",
+				"dweb:/ipfs/QmTRJbjHMirdXZFNPz4rAxeKLK9mY5fvQKywGKeyecDKrq"
+			]
+		},
+		"contracts/BoxFactory.sol": {
+			"keccak256": "0x4a10c17a6231b56a9a50d7ca6c11ca5b2a6bc62810f910fe5b94f61e3fbd4868",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://d5fe14e4c5c9c36e01edde03540ab0ebcb3b986dd2e4cd473f0713ed5a84536d",
+				"dweb:/ipfs/QmarWztjiPrp7tfzmU63PLavLkVywsvda9a7FUPNy1hvyg"
+			]
+		},
+		"contracts/interfaces/IBox.sol": {
+			"keccak256": "0xc96056c8063eba780c825a285f916c721df6020db079a05f23ede167fb37f6fc",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://b0425974323347530d67fefebb2ba3c0232dff4ad90a439bb48d4c31bfb11b55",
+				"dweb:/ipfs/QmSkJVHYsGNd26bkekzGUGrEvWFnUUvCMwxMB5vv4huyB1"
+			]
+		},
+		"contracts/interfaces/IFactory.sol": {
+			"keccak256": "0x4647dc35a4125e7bae050792717f1b7a998b8454ff76f74e191c149fd6479d0e",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://5c2e7112215f3f090736bb3b6a98074c200e42f2f51f754298c4902263cceabb",
+				"dweb:/ipfs/QmVudqguT25EtJStKdBTMzqYFEybUbYpRSNmNhWb9PUxeu"
+			]
+		}
+	},
+	"version": 1
+}
